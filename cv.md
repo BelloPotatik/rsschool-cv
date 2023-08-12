@@ -2,7 +2,7 @@
 
 ## **Date of birth:** 28.07.2000
 
-![cv-photo](/rsschool-cv/cv.png)
+![cv-photo](https://github.com/BelloPotatik/rsschool-cv/blob/gh-pages/cv.png?raw=true)
 
 ## Contact information:
 

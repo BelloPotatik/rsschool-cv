@@ -12,7 +12,7 @@
 
 **E-mail:** igorzaruba.basic@gmail.com
 
-**Discord (rs-school server):** Bello.Potatik (@bellopotatik)
+**Discord (rs-school server):** Bello.Potatik@bellopotatik
 
 **Telegram:** @potatik
 

@@ -37,20 +37,20 @@
             </section>
         </div>
 
-        <section class="contacts">
-            <h3 class="contactsTopic">Contacts:</h3>
+        <section class="section" id="contacts">
+            <h2 class="contactsTopic">Contacts:</h2>
             <ul class="contactsContainer">
                 <li id="item1">Location: Belarus, Brest</li>
                 <li id="item2">Phone: +375292229870</li>
                 <li id="item3">Email: <a href="mailto:igorzaruba.basic@gmail.com" title="Email">igorzaruba.basic@gmail.com</a>
-                <li id="item4">Discord: <a href="" title="Discord">Bello.Potatik@bellopotatik</a></li>
+                <li id="item4">Discord: <a href="https://discordapp.com/users/200336850592727041" title="Discord">Bello.Potatik@bellopotatik</a></li>
                 <li id="item5">Telegram: <a href="https://t.me/potatik" title="Telegram">@potatik</a></li>
                 <li id="item6">Github: <a href="https://github.com/BelloPotatik" title="github">BelloPotatik</a></li>
             </ul>
         </section>
 
-        <section class="education">
-            <h3 class="educationTopic">Education:</h3>
+        <section classs="section" id="education">
+            <h2 class="educationTopic">Education:</h2>
             <ul class="educationContainer">
                 <li>
                     <h4 class="educationTheme1">Secondary education:</h4>
@@ -68,5 +68,88 @@
                 </li>
             </ul>
         </section>
+
+        <section class="section" id="aboutmyself">
+            <h2 class="aboutmyselfTopic">About myself</h2>
+            <p>The goal and priorities in life is self-development, to become a sought-after and versatile specialist who can always bring something new.</p>
+            <p>The strengths can be safely attributed to the versatility of knowledge and skills, sociability, courtesy and punctuality, perseverance and diligence.</p>   
+            <p>I started studying Frontend Development and Japanese. I believe that Frontend Development skills will open up new opportunities and ways for me to solve the tasks.</p>
+        </section>
+
+        <section class="section" id="skills">
+            <h2 class="skillsTopic">Skills</h2>
+            <ul>
+                <li class="skill1">HTML</li>
+                <li class="skill2">CSS</li>
+                <li class="skill3">Javascript (basic)</li>
+                <li class="skill4">Git</li>
+                <li class="skill5">VS Code</li>
+            </ul>
+        </section>
+
+        <section class="section" id="codeexample">
+            <h2 class="codeexampleTopic">Code example</h2>
+            <pre class="code">
+                <code>
+const assert = require("chai").assert;
+function multiply(a, b){
+ return a * b
+}
+describe("Multiply", () => {
+  it("fixed tests", () => {
+    assert.strictEqual(multiply(1,1), 1);
+    assert.strictEqual(multiply(2,1), 2);
+    assert.strictEqual(multiply(2,2), 4);
+    assert.strictEqual(multiply(3,5), 15);   
+  });
+});
+                </code>
+        </pre>
+        </section>
+
+        <section class="section" id="experience">
+            <h2 class="workexperienceTopic">Work experience</h2>
+            <ul>
+                <li class="exp1">production (technological) practice at Savushkin Product OJSC from 06.29.2020 to 07.12.2020; (<a href="https://www.savushkin.by/en/">www.savushkin.by</a>)</li>
+                <li class="exp2">Production, organizational and economic practice at Blank Labels LLC from 07.15.2021 to 08.01.2021; (<a href="https://blanklabels.by">www.blanklabels.by</a>)</li>
+                <li class="exp3">Undergraduate practice at Blank Labels LLC from 02.07.2022 to 04.03.2022</li>
+                <li class="exp4">since August 2022, I have been a specialist in analysis and current planning at JV TermoBrest LLC. The company produces shut-off and valve equipment. In my position, I am engaged in the calculation of opportunities, planning the timely replenishment of stocks, ensuring rhythm, being the link for the interaction of all production departments, which requires a complete understanding of the design of all products (more than 10,000 product items), full knowledge of suppliers, buyers and dealers, etc. .</li>
+            </ul>
+        </section>
+
+        <section class="section" id="courses">
+            <h2 class="coursesTopic">Courses</h2>
+            <ul>
+                <li class="corses1">RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+            </ul>
+        </section>
+
+        <section class="section" id="Languages">
+            <h2 class="languagesTopic">Languages</h2>
+            <ul>
+                <li class="lang1">English: B1-B2 (I had been practicing English, when I lived for 4 years in Vienna/Austria)</li>
+                <li class="lang2">Russian - Native</li>
+                <li class="lang3">Belorussian - Native</li>
+                <li class="lang4">Ukrainian - Intermediate</li>
+                <li class="lang5">Japanese - N5 (in progress)</li>
+            </ul>
+        </section>
     </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="giturl">
+                <a href="https://github.com/BelloPotatik" title="Github">
+                    <img src="./assets/svg/github ico.png" alt="git logo" class="gitlogo">
+                    My Github
+                </a>
+            </div>
+            <p>© 2024</p>
+            <div class="rsschoolurl">
+                <a href="https://rs.school/js/" title="rsschool">
+                    <img src="./assets/svg/rschool logo.svg" alt="rsschool logo" class="rslogo">
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>

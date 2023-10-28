@@ -42,7 +42,7 @@ Recently, I started studying Frontend Development and Japanese. I believe that F
 * Git
 * VS Code
 
-## Code exaple:
+## Code example:
 
 ```
 const assert = require("chai").assert;

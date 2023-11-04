@@ -1,0 +1,74 @@
+body {
+    box-sizing: border-box;
+    background-color: rgb(148, 148, 231);
+  }
+
+.header {
+    display: flex;
+    flex-basis: 25%;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(218, 218, 255);
+    margin: 20px auto;
+    box-shadow: inset 
+    0 -10em 0em rgb(211, 211, 255),
+    0 0 0 1px rgba(255, 255, 255, 0.881),
+    1em 1em 4em rgba(16, 11, 11, 0.3);
+}
+
+.main {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+}
+
+.footer{
+    display: flex;
+    flex-basis: 25%;
+    flex-direction: row;
+}
+
+.navContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.Cont1 {
+    display: flex;
+    margin: 0px 20px 0px 0px;
+}
+
+.Cont2 {
+    display: flex;
+    margin: 0px 20px 0px 0px;
+}
+
+.Cont3 {
+    display: flex;
+    margin: 0px 20px 0px 0px;
+}
+
+.Cont4 {
+    display: flex;
+    margin: 0px 20px 0px 0px;
+}
+
+.Cont5 {
+    display: flex;
+    margin: 0px 20px 0px 0px;
+}
+
+.Cont6 {
+    display: flex;
+    margin: 0px 20px 0px 0px;
+}
+
+.Cont7 {
+    display: flex;
+    margin: 0px 20px 0px 0px;
+}
+
+.Cont8 {
+    display: flex;
+    margin: 0px 20px 0px 0px;
+}

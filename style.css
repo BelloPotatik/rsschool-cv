@@ -1,3 +1,9 @@
+:root {
+    --gray-color: rgba(244, 206, 206, 0.502);
+    --white-color: #ffffff;
+    --white-geen-color: #7fefe0;
+  }
+
 body {
     box-sizing: border-box;
     background-color: rgb(148, 148, 231);
@@ -71,4 +77,35 @@ body {
 .Cont8 {
     display: flex;
     margin: 0px 20px 0px 0px;
+}
+
+.preview {
+    display: flex;
+    margin: 40px 0px 0px 40px;
+    background-color: var(--gray-color);
+    padding: 30px;
+
+}
+
+.preview .myphoto {
+    width:300px;
+    height:300px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-size: auto 300px;
+    box-shadow: inset 
+    0 -10em 0em rgb(211, 211, 255),
+    0 0 0 1px rgba(255, 255, 255, 0.881),
+    1em 1em 4em rgba(16, 11, 11, 0.3);
+}
+
+.preview .shortinfo {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 100px;
+}
+
+.preview .profession {
+    display: flex;
+    margin: 130px 0px 0px 0px;
 }

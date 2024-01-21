@@ -1,13 +1,23 @@
 :root {
     --gray-color: rgba(244, 206, 206, 0.502);
     --white-color: #ffffff;
-    --white-geen-color: #7fefe0;
+    --white-geen-color: #c6e1fa;
   }
 
 body {
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
     background-color: rgb(148, 148, 231);
-  }
+}
 
 .header {
     display: flex;
@@ -81,8 +91,10 @@ body {
 
 .preview {
     display: flex;
-    margin: 40px 0px 0px 40px;
+    flex-wrap: wrap;
+    margin: 40px 0px 0px 0px;
     background-color: var(--gray-color);
+    border-radius: 200px 400px 25px 200px;
     padding: 30px;
 
 }
@@ -102,10 +114,23 @@ body {
 .preview .shortinfo {
     display: flex;
     flex-direction: column;
-    margin: 0px 0px 0px 100px;
+    align-items: end;
+    translate: 60px;
 }
 
 .preview .profession {
     display: flex;
     margin: 130px 0px 0px 0px;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#education {
+    margin: 40px 0px 0px 0px;
+    background-color: var(--white-geen-color);
+    border-radius: 60px 25px 400px 60px;
+    padding: 30px;
 }

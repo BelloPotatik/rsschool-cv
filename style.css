@@ -91,17 +91,17 @@ body {
 
 .preview {
     display: flex;
-    flex-wrap: wrap;
-    margin: 40px 0px 0px 0px;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
     background-color: var(--gray-color);
-    border-radius: 200px 400px 25px 200px;
-    padding: 30px;
-
+    border-radius: 200px 200px 200px 200px;
+    padding: 30px 110px 30px 30px;
 }
 
 .preview .myphoto {
     width:300px;
     height:300px;
+    margin-top: 8px;
     object-fit: cover;
     border-radius: 50%;
     background-size: auto 300px;
@@ -120,17 +120,28 @@ body {
 
 .preview .profession {
     display: flex;
-    margin: 130px 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
 }
 
-.section {
+#contacts {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex-shrink: 1;
+    align-items: end;
+    margin: 3px 0px 0px 0px;
+    background-color: var(--white-color);
+    border-radius: 15px 200px 200px 15px;
+    padding: 30px;
+}
+
+#contacts .contactsTopic {
+    display: flex;
+    margin: 0px 180px 0px 0px;
 }
 
 #education {
-    margin: 40px 0px 0px 0px;
+    margin: 3px 0px 0px 0px;
     background-color: var(--white-geen-color);
-    border-radius: 60px 25px 400px 60px;
+    border-radius: 20px 400px 25px 200px;
     padding: 30px;
 }

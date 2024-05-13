@@ -35,7 +35,8 @@ body {
 .main {
     display: flex;
     flex-basis: 50%;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .footer{
@@ -96,6 +97,8 @@ body {
     background-color: var(--gray-color);
     border-radius: 200px 200px 200px 200px;
     padding: 30px 110px 30px 30px;
+    order: 0;
+    width: 100%;
 }
 
 .preview .myphoto {
@@ -127,11 +130,13 @@ body {
     display: flex;
     flex-direction: column;
     flex-shrink: 1;
-    align-items: end;
-    margin: 3px 0px 0px 0px;
+    align-items: center;
+    margin: 3px 3px 0px 0px;
     background-color: var(--white-color);
     border-radius: 15px 200px 200px 15px;
     padding: 30px;
+    width: 10%;
+    order: 2;
 }
 
 #contacts .contactsTopic {
@@ -140,8 +145,11 @@ body {
 }
 
 #education {
-    margin: 3px 0px 0px 0px;
+    margin: 3px 3px 0px 0px;
     background-color: var(--white-geen-color);
-    border-radius: 20px 400px 25px 200px;
+    border-radius: 200px 25px 25px 200px;
     padding: 30px;
+    order: 1;
+    width: 80%;
+    
 }

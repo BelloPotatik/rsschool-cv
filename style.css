@@ -43,6 +43,7 @@ body {
     display: flex;
     flex-basis: 25%;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .navContainer {
@@ -133,23 +134,94 @@ body {
     align-items: center;
     margin: 3px 3px 0px 0px;
     background-color: var(--white-color);
-    border-radius: 15px 200px 200px 15px;
-    padding: 30px;
-    width: 10%;
-    order: 2;
+    border-radius: 200px 25px 25px 200px;
+    padding: 40px;
+    width: 20%;
+    order: 1;
 }
 
 #contacts .contactsTopic {
     display: flex;
-    margin: 0px 180px 0px 0px;
+    margin: 0px 160px 0px 0px;
 }
 
 #education {
     margin: 3px 3px 0px 0px;
     background-color: var(--white-geen-color);
-    border-radius: 200px 25px 25px 200px;
-    padding: 30px;
+    border-radius: 25px 200px 200px 25px;
+    padding: 50px;
     order: 1;
-    width: 80%;
+    width: 50%;
     
 }
+
+#aboutmyself {
+    margin: 3px 3px 0px 0px;
+    background-color: var(--gray-color);
+    border-radius: 200px 25px 25px 200px;
+    padding: 50px;
+    order: 2;
+    width: 75%;
+    
+}
+
+#skills {
+    margin: 3px 3px 0px 0px;
+    background-color: var(--white-color);
+    border-radius: 25px 200px 200px 25px;
+    padding: 50px;
+    order: 2;
+    width: 10%;
+    
+}
+
+#codeexample {
+    margin: 3px 3px 0px 0px;
+    background-color: var(--white-geen-color);
+    border-radius: 200px 25px 25px 200px;
+    padding: 20px;
+    order: 3;
+    width: 30%;
+    
+}
+
+#experience {
+    margin: 3px 3px 0px 0px;
+    background-color: var(--gray-color);
+    border-radius: 25px 200px 200px 25px;
+    padding: 20px;
+    order: 3;
+    width: 60%;
+    
+}
+
+#courses {
+    margin: 3px 3px 0px 0px;
+    background-color: var(--gray-color);
+    border-radius: 200px 25px 25px 200px;
+    padding: 20px;
+    order: 4;
+    width: 40%;
+    
+}
+
+#Languages {
+    margin: 3px 3px 0px 0px;
+    background-color: var(--gray-color);
+    border-radius: 25px 200px 200px 25px;
+    padding: 20px;
+    order: 4;
+    width: 50%;
+    
+}
+
+.gitlogo {
+    width: 50px;
+    height: 50px;
+}
+  
+.rslogo {
+    width: 100px;
+    height: 100px;
+}
+  

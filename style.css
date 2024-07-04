@@ -128,35 +128,35 @@ body {
     margin: 100px 0px 0px 0px;
 }
 
-#contacts {
+.ce {
     display: flex;
-    flex-direction: column;
     flex-shrink: 1;
     align-items: center;
     justify-content: center;
     margin: 3px 3px 0px 0px;
+    width: 100%;
+}
+.contacts {
     background-color: var(--white-color);
     border-radius: 200px 25px 25px 200px;
-    padding: 40px;
-    width: 20%;
-    order: 1;
+    padding: 78px 40px;
+    width: 33%;
 }
 
-#contacts .contactsTopic {
+.contactsTopic {
     display: flex;
-    margin: 0px 160px 0px 0px;
+    margin: 0px 0px 0px 30px;
 }
 
-#education {
-    align-items: center;
-    justify-content: center;
-    margin: 3px 3px 0px 0px;
+.education {
     background-color: var(--white-geen-color);
     border-radius: 25px 200px 200px 25px;
-    padding: 50px;
-    order: 1;
-    width: 80%;
-    
+    padding: 10px;
+    width: 67%;
+}
+
+.contactsContainer {
+    margin: 0px 0px 0px 30px;
 }
 
 #aboutmyself {

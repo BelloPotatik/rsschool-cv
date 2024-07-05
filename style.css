@@ -133,49 +133,64 @@ body {
     flex-shrink: 1;
     align-items: center;
     justify-content: center;
-    margin: 3px 3px 0px 0px;
+    margin: 3px 0px 3px 0px;
     width: 100%;
 }
 .contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-color: var(--white-color);
     border-radius: 200px 25px 25px 200px;
-    padding: 78px 40px;
-    width: 33%;
+    padding: 60px 0;
+    width: 30%;
 }
 
 .contactsTopic {
     display: flex;
-    margin: 0px 0px 0px 30px;
+    margin: 0px 130px 0px 0px;
 }
 
 .education {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-color: var(--white-geen-color);
     border-radius: 25px 200px 200px 25px;
-    padding: 10px;
-    width: 67%;
+    padding: 10px 0px;
+    width: 70%;
 }
 
-.contactsContainer {
-    margin: 0px 0px 0px 30px;
+.educationTopic {
+    display: flex;
+    margin: 0px 0px 0px 50px;
 }
 
-#aboutmyself {
-    margin: 3px 3px 0px 0px;
-    background-color: var(--gray-color);
-    border-radius: 200px 25px 25px 200px;
-    padding: 50px;
-    order: 2;
-    width: 75%;
+.educationContainer {
     
 }
 
-#skills {
+.as {
+    display: flex;
+    flex-shrink: 1;
+    align-items: center;
+    justify-content: center;
     margin: 3px 3px 0px 0px;
+    width: 100%;
+}
+.aboutmyself {
+    background-color: var(--gray-color);
+    border-radius: 200px 25px 25px 200px;
+    width: 80%;
+    
+}
+
+.skills {
     background-color: var(--white-color);
     border-radius: 25px 200px 200px 25px;
-    padding: 50px;
-    order: 2;
-    width: 10%;
+    width: 20%;
     
 }
 

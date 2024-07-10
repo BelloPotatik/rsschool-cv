@@ -147,6 +147,7 @@ body {
     background-color: var(--white-color);
     border-radius: 200px 25px 25px 200px;
     padding: 60px 0;
+    margin: 0 3px 0 0;
     width: 30%;
 }
 
@@ -183,7 +184,6 @@ body {
     flex-shrink: 1;
     align-items: center;
     justify-content: center;
-    margin: 3px 3px 0px 0px;
     width: 100%;
 }
 
@@ -194,6 +194,8 @@ body {
     flex-direction: column;
     background-color: var(--gray-color);
     border-radius: 200px 25px 25px 200px;
+    margin: 0 3px 0 0;
+    padding: 1px 0 0 0 ;
     width: 70%;
 }
 
@@ -209,32 +211,88 @@ body {
 }
 
 
-
 .skills {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-color: var(--white-color);
     border-radius: 25px 200px 200px 25px;
+    padding: 35px 0px;
     width: 30%;
-    
 }
 
-#codeexample {
+.skillsTopic {
+    display:flex;
+    margin: 0px 150px 20px 0px;
+}
+
+.skillsUL {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 60px 0px 0px;
+}
+
+.cx {
+    display: flex;
+    flex-shrink: 1;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.codeexample {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
     margin: 3px 3px 0px 0px;
     background-color: var(--white-geen-color);
-    border-radius: 200px 25px 25px 200px;
-    padding: 20px;
-    order: 3;
-    width: 30%;
-    
+    border-radius: 25px 200px 200px 25px;
+    width: 40%;
 }
 
-#experience {
-    margin: 3px 3px 0px 0px;
+.codeexampleTopic {
+    display: flex;
+    margin: 20px 0px 0px 20px;
+}
+
+.code {
+    display: flex;
+    margin: auto;
+}
+
+.experience {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
     background-color: var(--gray-color);
-    border-radius: 25px 200px 200px 25px;
-    padding: 20px;
-    order: 3;
+    border-radius: 200px 25px 25px 200px;
+    padding: 50px 0;
     width: 60%;
+}
+
+.workexperienceTopic {
+    display: flex;
+    margin: 0 0 0 80px;
+}
+
+/* .workexperienceTopic ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px 0 0;
+    padding: 0 0 0 0;
+} */
+
+.ulex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 10px 0 0px;
     
+    line-height: 24px;
 }
 
 #courses {
